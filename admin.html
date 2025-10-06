@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dzongkha Typing Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <form action="">
+    <input type="radio" name="page-switch" id="stats" checked>
+    <input type="radio" name="page-switch" id="anls">
+  
+
+  <div class="admin-title"><h3>Welcome to Admin Dashboard</h3></div>
+  <div id="statistics">
+    <div class="dashboard-container-admin">
+
+      <div class="stats">
+        <div class="card">
+          <h3>Total Users</h3>
+          <p>1240</p>                    
+        </div>
+        <div class="card">                
+          <h3>Total Tests</h3>
+          <p>320</p>
+        </div>
+        <div class="card">
+          <h3>Avg WPM</h3>
+          <p>45</p>
+        </div>
+        <div class="card">
+          <h3>Avg Accuracy</h3>
+          <p>92%</p>
+        </div>
+      </div>
+
+      <div class="table-container">
+        <table>
+          <caption>Recent Attempts</caption>
+          <thead>
+            <tr>
+              <th class="first-col">Date</th>
+              <th>User</th>
+              <th>WPM</th>
+              <th class="last-col">Accuracy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="first-col">2025-09-13</td>
+              <td>Sonam</td>
+              <td>45</td>
+              <td class="last-col">92%</td>
+            </tr>
+            <tr>
+              <td class="first-col">2025-09-12</td>
+              <td>Karma</td>
+              <td>39</td>
+              <td class="last-col">87%</td>
+            </tr>
+            <tr>
+              <td class="first-col">2025-09-11</td>
+              <td>Pema</td>
+              <td>50</td>
+              <td class="last-col">95%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div id="anls">
+    <h1>Analytics on Last Month</h1>
+    <div class="bar-chart">
+      <img src="Images/graph.jpg" alt="">
+    </div>
+  </div>
+  <div class="label">
+    <label for="stats" name="page-switch">
+      <div class="stat-show" >Statistics</div>
+    </label>
+    <label for="anls" name="page-switch">
+      <div class="anls-show">Analytics</div>
+    </label>
+  </div>
+  </form>
+</body>
+</html>
