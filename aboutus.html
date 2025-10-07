@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <div class="container">
+  <header id="header" >
+    <nav>
+      <div class="logo-container" >
+        <img src="./Images/logo.jpg" alt="" style="width: 70px; height: auto;" >
+        <h1>Dzongkha Typing</h1>
+      </div>
+      <div class="coin">
+        <i class="fa-solid fa-coins"></i>
+        <span id="coin-count">2</span>
+      </div>
+      <div class="about-us">
+        <a href="aboutus.html" id="about-us">About Us</a>
+      </div>
+      <div class="account">
+        <a href="forms.html" id="account">Sign Up</a>
+      </div>
+      <div class="view-profile">
+        <a href="profile.html"><i class="fa-solid fa-user"></i></a>
+      </div>
+    </nav>
+  </header>
+  <div class="about-container">
     <h2>About Us</h2>
     <p>
       Welcome to the <strong>Dzongkha Typing App</strong> – a simple and user-friendly tool 
@@ -49,7 +69,7 @@
       a teacher creating study materials, or anyone who loves the Dzongkha language, 
       this app is here to support you.
 
-      <ul>
+    <ul>
       <li><strong>User-Friendly Design:</strong> No complicated setup — start typing Dzongkha instantly.</li>
       <li><strong>Made for Bhutan:</strong> Built specially to support Dzongkha, our national language.</li>
       <li><strong>Educational Support:</strong> Perfect for students, teachers, and learners of all levels.</li>
@@ -58,49 +78,51 @@
       <li><strong>Promotes Culture:</strong> Encourages the use of Dzongkha in schools, offices, and online platforms.</li>
       <li><strong>Free & Accessible:</strong> Available to everyone with no hidden costs.</li>
     </ul>
+  </div>
+
+  <footer>
+    <div class="contact-us">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>
+          <i class="fa-solid fa-house"></i>
+          <p><strong>Address:</strong> Thimphu, Bhutan</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope"></i>
+          <p><strong>Email:</strong> dtyping@gmail.com</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-phone"></i>
+          <p><strong>Phone:</strong> +975-17890458</p>
+        </li>
+      </ul>
+    </div>
+    <div class="suggest">
+      <h3>Suggestion Box</h3>
+      <textarea id="suggestion" rows="3" cols="0"></textarea>
+      <button type="submit" class="suggestion-submit"><i class="fa-solid fa-box"></i> Submit</button>
+    </div>
     
-</div>
-
-  
-    <footer>
-  <h2>Contact Us</h2>
-
-  <!-- Address -->
-  <p><strong>Address:</strong> Thimphu, Bhutan</p>
-  <i class="fa-solid fa-house"></i>
-
-  <!-- Contact info -->
-    Have questions or feedback? Reach out to us:
-  <br>Email: <a href="mailto:dzongkhatyping@gmail.com">dzongkhatyping@gmail.com</a>
-  <i class="fa-solid fa-envelope"></i>
-  <p><strong>Phone:</strong> +975-17890458</p>
-  <i class="fa-solid fa-phone"></i>
-  <br>
-
-  <!-- Suggestion box -->
-  <label for="suggestion">Suggestion Box:</label><br>
-  <textarea id="suggestion" name="suggestion" rows="4" cols="40"></textarea>
-  <br><br>
-  <button type="submit">Submit</button>
-  <i class="fa-solid fa-box"></i>
-  <br><br>
-
-  <!-- Social Links -->
-  <p>
-    <a href="https://facebook.com" target="_blank">Facebook</a>
-    <i class="fa-brands fa-facebook"></i>
-    <a href="https://twitter.com" target="_blank">Twitter</a> 
-    <i class="fa-brands fa-square-twitter"></i> 
-    <a href="https://instagram.com" target="_blank">Instagram</a>
-    <i class="fa-brands fa-instagram"></i>
-  </p>
-
-  <br>
-  
-
-  <!-- Copyright -->
-  <p>© 2025 Dzongkha Typing. All rights reserved.</p>
+    <div class="social-media">
+      <h3>Follow us on</h3>
+      <ul>
+        <li>
+          <i class="fa-brands fa-facebook"></i>
+          <a href="https://facebook.com" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <i class="fa-brands fa-square-twitter"></i>
+          <a href="https://twitter.com" target="_blank">Twitter</a> 
+        </li>
+        <li>
+          <i class="fa-brands fa-instagram"></i>
+          <a href="https://instagram.com" target="_blank">Instagram</a>
+        </li>
+      </ul>
+    </div>
+    <div></div>
+    <p class="copy-right"> &copy; 2025 Dzongkha Typing. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
