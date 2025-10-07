@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Rolling';
-  src: url('./Fonts/rolling.otf') format('truetype');
+  src: url('./Fonts/rolling_flow/Rolling\ Flow.otf') format('truetype');
 }
 @font-face {
   font-family: "Roboto";
-  src: url("./Fonts/Roboto-VariableFont_wdth\,wght.ttf");
+  src: url("./Fonts/roboto/Roboto-Regular.ttf");
 }
 
 :root {
