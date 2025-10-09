@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="images/logo.png" alt="Logo" width="200">
+  <img src="./Images/logo.jpg" alt="Logo" width="200">
 </p>
